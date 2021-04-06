@@ -15,6 +15,9 @@
         android:name="io.flutter.app.FlutterApplication"
         android:label="mymap"
         android:icon="@mipmap/ic_launcher">
+        <meta-data 
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB2JPctW1AXPFz-2K-bwES5Ru5ulec_kdc"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
@@ -39,8 +42,6 @@
               android:name="io.flutter.embedding.android.SplashScreenDrawable"
               android:resource="@drawable/launch_background"
               />
-            <meta-data android:name="com.google.android.geo.API_KEY"
-               android:value="AIzaSyB2JPctW1AXPFz-2K-bwES5Ru5ulec_kdc"/>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
